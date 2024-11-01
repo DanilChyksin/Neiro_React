@@ -1,0 +1,110 @@
+.application-container {
+  background: linear-gradient(165.1deg, #984994 36.02%, #c478bf 92.14%);
+  padding: 100px 150px;
+  display: flex;
+  gap: 47px;
+}
+.application-inputs-items {
+  display: flex;
+  flex-direction: column;
+}
+.application-inputs-items h3 {
+  color: #000;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+
+  margin-top: 26px;
+  margin-bottom: 78px;
+}
+.application-inputs-items input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  padding: 10px 0;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+
+}
+
+ textarea.additionalMessage::placeholder{
+  color: #fff;
+} 
+.input-item {
+  display: flex;
+  gap: 56px;
+}
+.input-item input {
+  margin-bottom: 61px;
+}
+
+.additionalMessage {
+  height: 149px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.additionalMessage:active,
+.additionalMessage:focus {
+  outline: none;
+}
+.additionalMessage::placeholder {
+  color: #000;
+}
+
+.submit-button {
+  max-width: 182px;
+  padding: 21px 30px;
+  border: none;
+  border-radius: 200px;
+  background: rgba(38, 38, 38, 1);
+}
+.submit-button img {
+  vertical-align: middle;
+  margin-left: 5px;
+  transition: margin-left 0.3s ease;
+}
+
+.submit-button:hover img {
+  margin-left: 13px;
+}
+
+@media (max-width: 1440px) {
+  .application-container-img {
+    width: 400px;
+    height: 400px;
+  }
+  .application-inputs-items h3 {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .application-container {
+    padding: 20px;
+  }
+}
+@media (max-width: 915px) {
+  .application-container-img {
+    display: none;
+  }
+  .application-container {
+    display: block;
+  }
+}
+@media (max-width: 485px) {
+  .application-inputs-items h3 {
+    font-size: 30px;
+    margin-top: 0;  
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 17px; /* Уменьшаем размер текста плейсхолдера */
+  }
+}
