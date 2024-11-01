@@ -1,4 +1,3 @@
-
 .experts {
   position: relative;
 }
@@ -19,10 +18,10 @@
   font-weight: 700;
 }
 .experts-subtitle {
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
 
   max-width: 642px;
   padding-left: 32px;
@@ -64,9 +63,9 @@ text-align: left;
 }
 
 @media (max-width: 1440px) {
-.experts-container {
-  margin-top: 30px;
-}
+  .experts-container {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 1000px) {
   .experts-container {
@@ -79,24 +78,30 @@ text-align: left;
     font-size: 40px;
     margin-bottom: 10px;
   }
-  .experts-grid{
+  .experts-grid {
     gap: 30px;
   }
 }
 @media (max-width: 645px) {
-
 }
 @media (max-width: 485px) {
+  .experts-grid {
+    gap: 15px;
+  }
+  .experts-item {
+    width: 100px;
+    object-fit: cover;
+  }
   .experts-subtitle {
     font-size: 12px;
     line-height: 20px;
-
   }
   .experts-head {
     margin-bottom: 30px;
   }
   .experts-item h4 {
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: 14px;
   }
   .experts-item p {
     font-size: 12px;

@@ -42,14 +42,15 @@
 .modal-content-image img {
   width: 400px;
   height: 400px;
+  border-radius: 20px;
   object-fit: cover;
   object-position: center;
 }
 .close-img {
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  top: 1.4rem;
   z-index: 10;
-  right: 20px;
+  right: 1.4rem;
   width: 34px;
   height: 34px;
   cursor: pointer;
@@ -76,4 +77,13 @@
 
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+@media (max-width: 485px) {
+  .modal-content-image img {
+    width: 200px;
+    height: 200px;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 }

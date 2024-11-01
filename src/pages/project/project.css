@@ -114,9 +114,20 @@
     top: -28%;
     left: 92%;
   }
-  .project-square__btn img {
+  .project-square__btn svg {
     width: 50px;
     height: 50px;
+  }
+}
+@media (max-width: 1500px) {
+  .project-square__title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .project-square__title h5 {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 @media (max-width: 1440px) {
@@ -136,10 +147,24 @@
     line-height: 20px;
   }
   .project-square {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    padding: 10px 14px 10px 10px;
+  }
+  .project-square__btn svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 1250px) {
+  .project-square__title p {
+    width: 170px;
+    font-size: 12px;
+  }
+  .project-square__title h5 {
+    font-size: 14px;
+  }
+  .project-square__btn {
+    top: -20%;
+    left: 90%;
   }
 }
 @media (max-width: 1000px) {
@@ -158,6 +183,7 @@
   }
   .project-square {
     flex-direction: row;
+    margin-bottom: 20px;
   }
   .project-square-flex {
     display: block;
@@ -166,11 +192,16 @@
     max-width: 400px;
   }
   .project-square__btn {
-    padding-top: 20px;
-    position: static;
+    top: -10%;
+    left: 85%;
   }
 }
 @media (max-width: 695px) {
+  .project-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
   .project-square {
     flex-direction: column;
   }
@@ -205,8 +236,13 @@
 }
 @media (max-width: 485px) {
   .project-square__btn {
-    top: -40%;
-    left: 85%;
+    max-width: 40px;
+    max-height: 40px;
+    top: -10%;
+    left: 88%;
+  }
+  .project-square {
+    margin-bottom: 20px;
   }
   .project-square-img {
     width: 200px;
