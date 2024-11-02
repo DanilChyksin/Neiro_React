@@ -47,7 +47,7 @@ const FaqsItems1 = () => {
         "— оценка и развитие топ-руководителей",
       ],
       imageSrc: "./img/collection/faqs-img.png",
-    }
+    },
   ];
 
   return (
