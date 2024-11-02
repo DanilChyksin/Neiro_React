@@ -1,10 +1,10 @@
 import React from "react";
 import "./popup.css";
-const PopUp = ({ data, index, handleClick }) => {
+const PopUp = ({ data, index, handleClick, active }) => {
   const { img, alt, text, popuptitle } = data[index];
   return (
     <div className="modal_bg">
-      <div className={`modal`}>
+      <div className="modal">
         <div className="modal-content">
           <div className="close-img" onClick={() => handleClick()}>
             <img src="./img/icons/close_icon.svg" alt="close" />

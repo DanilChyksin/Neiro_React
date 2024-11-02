@@ -64,7 +64,12 @@ const Project = () => {
   return (
     <div id="project">
       {active ? (
-        <PopUp data={data} handleClick={handleClick} index={index} />
+        <PopUp
+          data={data}
+          handleClick={handleClick}
+          index={index}
+          active={active}
+        />
       ) : (
         <></>
       )}
