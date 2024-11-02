@@ -15,27 +15,21 @@ import Reviews from "./pages/reviews/Reviews";
 import Sector from "./pages/sector/Sector";
 
 function App() {
-  const [active, isActive] = useState(null);
-  const handleClick = () => {
-    isActive(false);
-  };
   return (
     <>
-      <div onClick={handleClick} className={`${active ? "blur" : ""}`}>
-        <Header />
-        <Main />
-        <Faqs1 />
-        <Faqs2 />
-        <Sector />
-        <Question />
-        <About />
-        <Experts />
-        <Project />
-        <Partners />
-        <Reviews />
-        <InputApplication />
-        <Footer />
-      </div>
+      <Header />
+      <Main />
+      <Faqs1 />
+      <Faqs2 />
+      <Sector />
+      <Question />
+      <About />
+      <Experts />
+      <Project />
+      <Partners />
+      <Reviews />
+      <InputApplication />
+      <Footer />
     </>
   );
 }

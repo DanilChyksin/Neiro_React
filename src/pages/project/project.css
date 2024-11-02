@@ -37,6 +37,8 @@
   width: 100%;
   position: relative;
   padding: 16px;
+  margin-bottom: 8px;
+  margin-right: 8px;
   background: linear-gradient(
     -40deg,
     rgba(23, 18, 27, 1) 0%,
@@ -65,19 +67,19 @@
 }
 
 .border-left {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 5px;
   height: 100%;
   border-left: 5px solid #984994;
-  transition: 1s;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .project-square:hover {
   .border-left {
-    display: block;
+    opacity: 1;
   }
 
   /* background: linear-gradient(108.68deg, #c478bf 6.95%, #984994 39.15%); */
