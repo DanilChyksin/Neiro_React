@@ -59,6 +59,7 @@
   width: 530px;
   height: 247px;
   object-fit: cover;
+  border-radius: 1.6rem;
 }
 
 .project-square__btn svg {

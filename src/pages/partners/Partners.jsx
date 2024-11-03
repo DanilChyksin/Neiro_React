@@ -11,19 +11,24 @@ const Partners = () => {
         </div>
         <div className="partners-company">
           <div className="partners-company-img">
-            <img src="./img/collection/company-icon1.png" alt="" />
-            <img src="./img/collection/company-icon2.png" alt="" />
-            <img src="./img/collection/company-icon3.png" alt="" />
-            <img src="./img/collection/company-icon4.png" alt="" />
-          <img src="./img/collection/company-icon5.png" alt="" />
+            <img id="first" src="./img/collection/company-icon1.svg" alt="" />
+            <img id="yandex" src="./img/collection/company-icon2.svg" alt="" />
+            <img id="bitrix" src="./img/collection/company-icon3.svg" alt="" />
+            <img src="./img/collection/company-icon4.svg" alt="" />
+            <img id="wakeup" src="./img/collection/company-icon5.svg" alt="" />
 
-          </div>
-          <div className="partners-company-img">
-          <img src="./img/collection/company-icon6.png" alt="" />
-          <img src="./img/collection/company-icon7.png" alt="" />
-          <img src="./img/collection/company-icon8.png" alt="" />
-          <img src="./img/collection/company-icon9.png" alt="" />
-
+            <img
+              id="zoomlion"
+              src="./img/collection/company-icon6.svg"
+              alt=""
+            />
+            <img id="spec" src="./img/collection/company-icon7.svg" alt="" />
+            <img id="geo" src="./img/collection/company-icon8.svg" alt="" />
+            <img
+              id="rosdorsnab"
+              src="./img/collection/company-icon9.svg"
+              alt=""
+            />
           </div>
         </div>
       </div>

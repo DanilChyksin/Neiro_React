@@ -18,10 +18,12 @@ const Faqs1 = () => {
               <h2>Услуги для производства</h2>
               <span>
                 Помогаем организациям быть лучше и эффективней на каждом этапе
-                развития.  
+                развития.
               </span>
-              <span>Neiro Group  ДАЕТ САМЫЕ ЭФФЕКТИВНЫЕ РЕШЕНИЯ - 
-ВСЕ ОСТАЛЬНОЕ ЭТО НАРУШЕНИЕ </span>
+              <span>
+                Neiro Group ДАЕТ САМЫЕ ЭФФЕКТИВНЫЕ РЕШЕНИЯ - ВСЕ ОСТАЛЬНОЕ ЭТО
+                НАРУШЕНИЕ{" "}
+              </span>
             </div>
             <div className="faqs-buttons">
               <button className="faqs-btn"> Производственный аудит</button>
@@ -31,7 +33,7 @@ const Faqs1 = () => {
             </div>
           </div>
 
-          <FaqsItems1/>
+          <FaqsItems1 />
         </div>
       </div>
     </>
