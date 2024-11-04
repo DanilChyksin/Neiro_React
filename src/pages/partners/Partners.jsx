@@ -14,7 +14,7 @@ const Partners = () => {
             <img id="first" src="./img/collection/company-icon1.svg" alt="" />
             <img id="yandex" src="./img/collection/company-icon2.svg" alt="" />
             <img id="bitrix" src="./img/collection/company-icon3.svg" alt="" />
-            <img src="./img/collection/company-icon4.svg" alt="" />
+            <img id="cdt" src="./img/collection/company-icon4.svg" alt="" />
             <img id="wakeup" src="./img/collection/company-icon5.svg" alt="" />
 
             <img

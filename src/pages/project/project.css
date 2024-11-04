@@ -204,7 +204,7 @@
     width: 50px;
     height: 50px;
     top: -10%;
-    right: -40px;
+    left: 85%;
   }
 }
 @media (max-width: 695px) {
@@ -218,7 +218,7 @@
   }
   .project-square-img {
     margin: 0 auto;
-    width: 300px;
+    width: 400px;
   }
   .project-square-flex {
     display: flex;
@@ -229,7 +229,7 @@
     font-size: 23px;
     line-height: 25px;
   }
-  .project-title p {
+  .project-square__title p {
     font-size: 15px;
     margin-bottom: 10px;
   }
@@ -257,6 +257,6 @@
     margin-bottom: 20px;
   }
   .project-square-img {
-    width: 200px;
+    width: 300px;
   }
 }

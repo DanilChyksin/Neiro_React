@@ -30,37 +30,37 @@
 }
 .partners-company-img img {
   width: 260px;
+  background-color: #fff;
+  padding: 10px;
 }
 
 #yandex {
-  width: 260px;
   height: 90px;
 }
 #bitrix {
-  width: 260px;
-}
-#spec {
-  width: 350px;
-}
-#rosdorsnab {
-  width: 400px;
+  height: 90px;
 }
 #wakeup {
-  width: 260px;
+  padding: 0;
+}
+#cdt {
+  height: 90px;
+}
+#spec {
+  height: 90px;
 }
 #geo {
-  width: 260px;
+  height: 90px;
+  padding: 0;
 }
 #zoomlion {
-  width: 240px;
+  padding: 0;
+  height: 110px;
+  background-color: inherit;
 }
 #first {
-  width: 200px;
+  height: 90px;
 }
-/* .partners-company img {
-  max-width: 50%;
-  height: auto; 
-} */
 
 @media (max-width: 1100px) {
   .partners-container {
@@ -81,15 +81,8 @@
   .partners-head h3 {
     font-size: 30px;
   }
-  .partners-company {
-    margin-top: 20px;
-  }
-  #geo {
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
   #rosdorsnab {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 465px) {
@@ -98,28 +91,6 @@
   }
   .partners-head p {
     font-size: 18px;
-    margin-bottom: 0;
-  }
-  .partners-company-img {
-    gap: 0;
-  }
-  #bitrix {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  #yandex {
-    margin-top: 20px;
-  }
-  #spec {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  #rosdorsnab {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  #geo {
-    margin-top: 0;
     margin-bottom: 0;
   }
 }
