@@ -44,6 +44,9 @@
   .agreement-important {
     margin-right: 0;
   }
+  .background-gradient {
+    margin-top: 0;
+  }
 }
 @media (max-width: 1000px) {
   .agreement {
@@ -52,6 +55,7 @@
   .agreement ul > li {
     font-size: 18px;
   }
+
   .agreement-important h3 {
     font-size: 28px;
   }
@@ -62,8 +66,6 @@
     row-gap: 40px;
   }
   .agreement-important {
-    align-items: flex-end;
-    align-self: flex-end;
     margin-top: 0;
   }
 }
