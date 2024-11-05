@@ -117,9 +117,6 @@ label {
 legend {
   display: block;
 }
-.blur {
-  filter: blur(4px);
-}
 
 :root {
   --page-bg: rgba(23, 18, 27, 1);

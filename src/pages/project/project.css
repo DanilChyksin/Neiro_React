@@ -100,7 +100,7 @@
   left: 88%;
 }
 .project-square__title p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -247,6 +247,9 @@
   }
 }
 @media (max-width: 485px) {
+  .project-square__title p {
+    font-size: 12px;
+  }
   .project-square__btn {
     max-width: 40px;
     max-height: 40px;
@@ -257,6 +260,6 @@
     margin-bottom: 20px;
   }
   .project-square-img {
-    width: 300px;
+    width: 100%;
   }
 }

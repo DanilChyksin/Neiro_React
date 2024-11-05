@@ -13,12 +13,14 @@ import Project from "./pages/project/Project";
 import Question from "./pages/question/Question";
 import Reviews from "./pages/reviews/Reviews";
 import Sector from "./pages/sector/Sector";
+import Agreement from "./pages/agreement/Agreement";
 
 function App() {
   return (
     <>
       <Header />
       <Main />
+      <Agreement />
       <Faqs1 />
       <Faqs2 />
       <Sector />

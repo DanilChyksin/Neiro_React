@@ -81,15 +81,35 @@
   .experts-grid {
     gap: 30px;
   }
-}
-@media (max-width: 645px) {
-}
-@media (max-width: 485px) {
   .experts-grid {
     display: flex;
+    column-gap: 100px;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .experts-item {
+    width: 300px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 760px) {
+  .experts-grid {
+    column-gap: 40px;
+  }
+}
+@media (max-width: 660px) {
+  .experts-item {
+    width: 200px;
+  }
+  .experts-item h4 {
+    font-size: 12px;
+    height: 34px;
+  }
+  .experts-item p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 485px) {
   .experts-item {
     width: 160px;
     object-fit: cover;

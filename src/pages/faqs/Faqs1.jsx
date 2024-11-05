@@ -26,7 +26,7 @@ const Faqs1 = () => {
               </span>
             </div>
             <div className="faqs-buttons">
-              <button className="faqs-btn"> Производственный аудит</button>
+              <button className="faqs-btn">Производственный аудит</button>
               <button>Склад</button>
               <button>Цех</button>
               <button>Отдел технического контроля</button>
