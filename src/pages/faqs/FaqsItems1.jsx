@@ -148,7 +148,7 @@ const FaqsItems1 = () => {
           <div className="faqs-answer">
             <div className="faqs-includes-text">
               {faq.answer.map((el, i) => (
-                <div className="faqs-includes-text-item">
+                <div key={i} className="faqs-includes-text-item">
                   <div className="faqs-includes-text-item-stage">
                     <img src="/img/icons/speedometer.svg" alt="" />
                     <h3>ЭТАП {i + 1}</h3>
@@ -157,8 +157,8 @@ const FaqsItems1 = () => {
                     {el.title}
                   </h3>
                   <ul>
-                    {el.stage.map((el) => (
-                      <li>{el}</li>
+                    {el.stage.map((el, i) => (
+                      <li key={i}>{el}</li>
                     ))}
                   </ul>
                 </div>

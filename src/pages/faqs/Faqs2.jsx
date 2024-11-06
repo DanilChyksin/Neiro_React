@@ -5,7 +5,7 @@ import FaqsItems2 from "./FaqsItems2";
 const Faqs2 = () => {
   return (
     <>
-      <div className="faqs" id="faqs">
+      <div className="faqs" id="commercial">
         <img
           className="faqs-vector-img"
           src="./img/collection/vector-faqs.png"

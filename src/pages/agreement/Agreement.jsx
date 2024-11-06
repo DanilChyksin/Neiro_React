@@ -1,5 +1,17 @@
 import React from "react";
 import "./agreement.css";
+const data = {
+  list: [
+    "Клиент заполняет опросный лист",
+    "Мы назначем нашего аудитора",
+    "Аудитор назначает группу наших экспертов",
+    "Мы предоставляем возможные решения",
+    "Клиент принимает решение о выборе",
+    "Подписание договра",
+    "Мы направляем аудитора к клиенту",
+  ],
+  agreements: ["Эффективность", "Конфиденциальность", "Результативность"],
+};
 
 const Agreement = () => {
   return (
@@ -12,47 +24,22 @@ const Agreement = () => {
           </h3>
         </div>
         <ul>
-          <li>
-            <span className="background-gradient">01</span> Клиент заполняет
-            опросный лист
-          </li>
-          <li>
-            <span className="background-gradient">02</span> Мы назначем нашего
-            аудитора
-          </li>
-          <li>
-            <span className="background-gradient">03</span> Аудитор назначает
-            группу наших экспертов
-          </li>
-          <li>
-            <span className="background-gradient">04</span> Мы предоставляем
-            возможные решения
-          </li>
-          <li>
-            <span className="background-gradient">05</span> Клиент принимает
-            решение о выборе
-          </li>
-          <li>
-            <span className="background-gradient">06</span> Подписание договра
-          </li>
-          <li>
-            <span className="background-gradient">07</span> Мы направляем
-            аудитора к клиенту
-          </li>
+          {data.list.map((el, i) => (
+            <li key={i}>
+              <span className="background-gradient">0{i + 1}</span> {el}
+            </li>
+          ))}
         </ul>
       </div>
       <div className="agreement-important">
         <h3 className="background-gradient">Для нас важно :</h3>
         <ul>
-          <li>
-            <span className="background-gradient">—</span>Эффективность
-          </li>
-          <li>
-            <span className="background-gradient">—</span>Конфиденциальность
-          </li>
-          <li>
-            <span className="background-gradient">—</span>Результативность
-          </li>
+          {data.agreements.map((el, i) => (
+            <li key={i}>
+              <span className="background-gradient">—</span>
+              {el}
+            </li>
+          ))}
         </ul>
       </div>
     </div>
