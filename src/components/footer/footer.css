@@ -113,23 +113,6 @@
   align-items: center;
 }
 
-.footer-policy-privacy {
-  display: flex;
-  text-align: center;
-  align-items: center;
-
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-}
-.footer-policy-privacy p:first-child {
-  padding-right: 15px;
-  border-left: none;
-}
-.footer-policy-privacy p {
-  padding-left: 15px;
-  border-left: 1px solid #fff;
-}
 /* .footer-policy-right-content img {
   padding-bottom: 5px;
 } */
@@ -174,15 +157,11 @@
   .footer-container {
     margin: 80px 20px 10px;
   }
-  .footer-contacts,
-  .footer-policy {
+  .footer-contacts {
     display: block;
   }
   .footer-policy-right-content {
     justify-content: space-between;
-  }
-  .footer-policy-privacy p:first-child {
-    padding-left: 0;
   }
 }
 @media (max-width: 920px) {
