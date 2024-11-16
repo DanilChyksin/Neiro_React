@@ -20,7 +20,7 @@ const Agreement = () => {
         <div className="agreement-stage-title">
           <img src="/img/icons/speedometer.svg" alt="speedometer" />
           <h3 className="background-gradient">
-            Каждый аудит проходит этап соглосование{" "}
+            Каждый аудит проходит этап соглосования{" "}
           </h3>
         </div>
         <ul>

@@ -7,7 +7,11 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-content-logo">
-            <img className="footer-logo" src="./img/icons/logo.png" alt="" />
+            <img
+              className="footer-logo"
+              src="./img/icons/logo.png"
+              alt="logo"
+            />
             <img
               className="footer-main-img"
               src="./img/collection/footer-img.png"
@@ -57,13 +61,16 @@ const Footer = () => {
         <div className="footer-contacts">
           <div className="footer-info">
             <div className="footers-numbers">
-              <img src="./img/icons/phone.png" alt="" />
+              <img src="./img/icons/phone.png" alt="phone" />
               <a href="tel:88126010807">8 (812) 601 08 07</a>
               <a href="tel:89523674641">8 952 367 46 41</a>
             </div>
             <div className="footers-info-img">
-              <img src="./img/icons/mail.png" alt="" />
+              <img src="./img/icons/mail.png" alt="email" />
               <a href="mailto:cons@neirogroup.ru">cons@neirogroup.ru</a>
+              <div className="footers-info-inn">
+                <p>ИНН: 7817127960</p>
+              </div>
             </div>
           </div>
         </div>
@@ -71,9 +78,6 @@ const Footer = () => {
         <div className="footer-policy">
           <div className="footer-policy-copyright">
             <span>Политика конфиденциальности</span>
-          </div>
-          <div className="footer-policy-right-content">
-            <img src="./img/icons/nil.svg" alt="" />
           </div>
         </div>
       </div>
