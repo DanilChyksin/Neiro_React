@@ -1,15 +1,7 @@
 import React from "react";
 import "./agreement.css";
 const data = {
-  list: [
-    "Клиент заполняет опросный лист",
-    "Мы назначем нашего аудитора",
-    "Аудитор назначает группу наших экспертов",
-    "Мы предоставляем возможные решения",
-    "Клиент принимает решение о выборе",
-    "Подписание договра",
-    "Мы направляем аудитора к клиенту",
-  ],
+  list: ["ОПРОС", "АУДИТ [бесплатно]", "ДОГОВОР", "ИСПОЛНЕНИЕ", "ГАРАНТИЯ"],
   agreements: ["Эффективность", "Конфиденциальность", "Результативность"],
 };
 
@@ -19,9 +11,7 @@ const Agreement = () => {
       <div className="agreement-stage">
         <div className="agreement-stage-title">
           <img src="/img/icons/speedometer.svg" alt="speedometer" />
-          <h3 className="background-gradient">
-            Каждый аудит проходит этап соглосования{" "}
-          </h3>
+          <h3 className="background-gradient">ЭТАПЫ РАБОТ:</h3>
         </div>
         <ul>
           {data.list.map((el, i) => (

@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
@@ -14,10 +13,12 @@ import Question from "./pages/question/Question";
 import Reviews from "./pages/reviews/Reviews";
 import Sector from "./pages/sector/Sector";
 import Agreement from "./pages/agreement/Agreement";
+import { useState } from "react";
 
 function App() {
+  const [active, isActive] = useState(false);
   return (
-    <>
+    <div className={active ? "active" : ""}>
       <Header />
       <Main />
       <Agreement />
@@ -27,12 +28,12 @@ function App() {
       <Question />
       <About />
       <Experts />
-      <Project />
+      <Project active={active} isActive={isActive} />
       <Partners />
       <Reviews />
       <InputApplication />
       <Footer />
-    </>
+    </div>
   );
 }
 

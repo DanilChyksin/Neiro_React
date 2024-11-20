@@ -119,10 +119,7 @@
   }
   .about-statistic-numbers {
     display: block;
-padding-bottom: 20px;
-
-
-
+    padding-bottom: 20px;
   }
   .about-statistic-number_item {
     border-right: none;
@@ -133,6 +130,7 @@ padding-bottom: 20px;
 }
 @media (max-width: 470px) {
   .about-title h4 {
+    margin-top: 14px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -144,7 +142,10 @@ padding-bottom: 20px;
     margin-bottom: 80px;
     gap: 30px;
   }
+  .about-title {
+    padding-top: 20px;
+  }
   .about-subtitle-list ul {
-    font-size: 15px;
+    font-size: 16px;
   }
 }

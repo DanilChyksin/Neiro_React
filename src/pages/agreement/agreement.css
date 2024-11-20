@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   margin-top: 150px;
-  justify-content: space-between;
+  gap: 160px;
 }
 
 .agreement-stage-title {
@@ -27,7 +27,6 @@
   font-size: 24px;
 }
 .agreement-important {
-  margin-top: 200px;
   margin-right: 100px;
 }
 .agreement-important h3 {

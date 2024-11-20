@@ -54,15 +54,14 @@ const data = [
   },
 ];
 
-const Project = () => {
-  const [active, isActive] = useState(false);
+const Project = ({ active, isActive }) => {
   const [index, isIndex] = useState(null);
   const handleClick = (i) => {
     isIndex(i);
     isActive(!active);
   };
   return (
-    <div id="project">
+    <div id="project" className={active ? "active" : ""}>
       {active ? (
         <PopUp
           data={data}

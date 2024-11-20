@@ -11,16 +11,14 @@ const Sector = () => {
             <h1 className="background-gradient">которым мы помогаем</h1>
           </div>
           <div className="sector-subtitle">
-            <p>С ВАС ИДЕЯ - С НАС ВОПЛОЩЕНИЕ
-            </p>
-            
+            <p>С ВАС ИДЕЯ - С НАС ВОПЛОЩЕНИЕ</p>
+
             <p>
               Наша консалтинговая компания специализируется на оказании помощи
               различным отраслям бизнеса в достижении своих целей и улучшении
               процессов.
             </p>
-            <p>"ЭФФЕКТИВНЫЙ БИЗНЕС - ЭФФЕКТИВНЫЕ РЕШЕНИЯ"
-            </p>
+            <p>"ЭФФЕКТИВНЫЙ БИЗНЕС - ЭФФЕКТИВНЫЕ РЕШЕНИЯ"</p>
           </div>
         </div>
 
@@ -32,14 +30,14 @@ const Sector = () => {
             </div>
           </div>
 
-          <div className="sector-item">
+          <div id="gos" className="sector-item">
             <img src="./img/icons/tie.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">Государственный сектор</h4>
             </div>
           </div>
 
-          <div className="sector-item">
+          <div id="potreb" className="sector-item">
             <img src="./img/icons/product.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
@@ -56,42 +54,17 @@ const Sector = () => {
               </h4>
             </div>
           </div>
-
-          {/* <div className="sector-item">
-            <img src="./img/icons/oil.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">
-                Нефтяная и нефтегазовая промышленность, нефтехимия
-              </h4>
-            </div>
-          </div> */}
-
-          {/* <div className="sector-item">
-            <img src="./img/icons/spoon.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">Пищевая промышленность</h4>
-            </div>
-          </div> */}
-
-          <div className="sector-item">
+          <div id="prom" className="sector-item">
             <img src="./img/icons/wood-industries.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
-                Легкая промышленность, деревообрабатывающая промышленность
+                Легкая промышленность, деревообраба-
+                <br />
+                тывающая промышленность
               </h4>
             </div>
           </div>
-
-          {/* <div className="sector-item">
-            <img src="./img/icons/connection.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">
-                Связь и телекомму- никации
-              </h4>
-            </div>
-          </div> */}
-
-          <div className="sector-item">
+          <div id="build" className="sector-item">
             <img src="./img/icons/construction.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
@@ -106,25 +79,6 @@ const Sector = () => {
               <h4 className="background-gradient">Транспорт и логистика</h4>
             </div>
           </div>
-
-          {/* <div className="sector-item">
-            <img src="./img/icons/pharmacy.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">
-                Фармацевтика и здравоохранение
-              </h4>
-            </div>
-          </div> */}
-
-          {/* <div className="sector-item">
-            <img src="./img/icons/coin.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">
-                Финансовый сектор: банки и страховые компании
-              </h4>
-            </div>
-          </div> */}
-
           <div className="sector-item">
             <img src="./img/icons/lamp.png" alt="" />
             <div className="sector-item__name">
@@ -138,7 +92,11 @@ const Sector = () => {
               <h4 className="background-gradient">IT-компании</h4>
             </div>
           </div>
-        <img className="sector-circle" src="./img/icons/sector-circle.svg" alt="" />
+          <img
+            className="sector-circle"
+            src="./img/icons/sector-circle.svg"
+            alt=""
+          />
         </div>
       </div>
     </div>

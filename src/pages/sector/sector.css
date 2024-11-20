@@ -30,7 +30,6 @@
   max-width: 643px;
   padding-top: 12px;
   border-left: 6px solid rgba(152, 73, 148, 1);
-
 }
 .sector-subtitle p {
   margin-bottom: 15px;
@@ -41,7 +40,15 @@
 
   padding-left: 26px;
 }
-
+.sector-item {
+  display: none;
+}
+#prom,
+#build,
+#potreb,
+#gos {
+  display: block;
+}
 .sector-item img {
   padding-bottom: 35px;
   /* max-width: 232px; */
@@ -89,11 +96,14 @@
     line-height: 40px;
   }
   .sector-subtitle p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 20px;
   }
 }
 @media (max-width: 645px) {
+  .sector-item {
+    display: block;
+  }
   .sector-container {
     margin: 30px 10px 0;
   }
@@ -103,20 +113,54 @@
     margin-top: 5px;
   }
   .sector-item__name {
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 10px;
     line-height: 20px;
   }
 }
 @media (max-width: 485px) {
   .sector-item__name {
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 6px;
     line-height: 15px;
   }
+  .sector-subtitle p {
+    font-size: 12px;
+  }
   .sector-grid {
-    gap: 10px;
+    gap: 12px;
+  }
+  .sector-item {
+    width: 190px;
+    height: auto;
+    margin-top: 30px;
+  }
+  .sector-head {
+    gap: 20px;
+  }
+  .sector-item img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-left: 60px;
+  }
+  .sector-item__name h4 {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 16px;
+  }
 }
-
-
+@media (max-width: 380px) {
+  .sector-item {
+    width: 170px;
+    height: auto;
+    margin-top: 30px;
+  }
+  .sector-item__name h4 {
+    font-size: 12px;
+  }
+  .sector-circle {
+    display: none;
+  }
 }

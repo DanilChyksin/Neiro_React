@@ -131,3 +131,9 @@
     font-size: 12px;
   }
 }
+@media (max-width: 380px) {
+  .experts-item {
+    width: 80%;
+    object-fit: cover;
+  }
+}
