@@ -54,8 +54,17 @@ const data = [
   },
 ];
 
-const Project = ({ active, isActive }) => {
+const Project = () => {
   const [index, isIndex] = useState(null);
+  const [active, isActive] = useState(false);
+
+  const html = document.querySelector("html");
+  if (active) {
+    html.style.overflow = "hidden";
+  } else {
+    html.style.overflow = "auto";
+  }
+
   const handleClick = (i) => {
     isIndex(i);
     isActive(!active);

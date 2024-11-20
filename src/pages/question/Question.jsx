@@ -81,7 +81,6 @@ const Question = () => {
         </div>
 
         <Swiper
-          navigation={true}
           centeredSlides={true}
           modules={[Navigation]}
           ref={swiperRef}

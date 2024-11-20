@@ -1,11 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Mousewheel, Pagination } from "swiper/modules";
+import { Keyboard, Mousewheel, Navigation, Pagination } from "swiper/modules";
 
 import "./reviews.css";
 
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Reviews = () => {
@@ -18,18 +19,19 @@ const Reviews = () => {
         </div>
         <div className="reviews-item">
           <Swiper
-            direction={"vertical"}
-            loop={false}
-            autoHeight={true}
+            id="swiper"
+            cssMode={true}
             slidesPerView={1}
-            mousewheel={true}
+            loop={false}
             pagination={{
               clickable: true,
-              el: ".reviews-pagination",
             }}
-            modules={[Mousewheel, Pagination]}
+            mousewheel={true}
+            keyboard={true}
+            modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+            className="mySwiper"
           >
-            <SwiperSlide style={{ height: '130px' }}>
+            <SwiperSlide style={{ height: "130px" }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -52,7 +54,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ height: '130px' }}>
+            <SwiperSlide style={{ height: "130px" }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -75,7 +77,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ height: '130px' }}>
+            <SwiperSlide style={{ height: "130px" }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -98,7 +100,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ height: '130px' }}>
+            <SwiperSlide style={{ height: "130px" }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -120,9 +122,9 @@ const Reviews = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide>{" "}
+            <div className="reviews-pagination"></div>
           </Swiper>
-          <div className="reviews-pagination"></div>
         </div>
       </div>
     </div>

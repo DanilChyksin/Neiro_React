@@ -62,15 +62,16 @@ const Footer = () => {
           <div className="footer-info">
             <div className="footers-numbers">
               <img src="./img/icons/phone.png" alt="phone" />
-              <a href="tel:88126010807">8 (812) 601 08 07</a>
-              <a href="tel:89523674641">8 952 367 46 41</a>
+              <a href="tel:88126010807">+7 (812) 601 08 07</a>
+
+              <a href="tel:89523674641">+7 952 367 46 41</a>
             </div>
             <div className="footers-info-img">
-              <img src="./img/icons/mail.png" alt="email" />
-              <a href="mailto:cons@neirogroup.ru">cons@neirogroup.ru</a>
-              <div className="footers-info-inn">
-                <p>ИНН: 7817127960</p>
+              <div className="footers-info-img-first">
+                <img src="./img/icons/mail.png" alt="email" />
+                <a href="mailto:cons@neirogroup.ru">cons@neirogroup.ru</a>
               </div>
+              <p>ИНН: 7817127960</p>
             </div>
           </div>
         </div>

@@ -136,4 +136,16 @@
     width: 80%;
     object-fit: cover;
   }
+  .experts-item h4 {
+    font-size: 14px;
+  }
+  .experts-item p {
+    font-size: 14px;
+  }
+  .experts-subtitle {
+    font-size: 14px;
+  }
+  .experts-subtitle-normal {
+    margin-top: 10px;
+  }
 }

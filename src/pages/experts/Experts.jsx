@@ -12,12 +12,13 @@ const Experts = () => {
           </div>
           <div className="experts-subtitle">
             <p className="experts-subtitle-bold">
-              БЕСПЛАТНЫЙ выезд на предприятие 
-              
+              БЕСПЛАТНЫЙ выезд на предприятие
             </p>
-            <p className="experts-subtitle-bold">НЕЗАВИСИМАЯ оценка процессов</p>
+            <p className="experts-subtitle-bold">
+              НЕЗАВИСИМАЯ оценка процессов
+            </p>
             <p className="experts-subtitle-bold">ГАРАНТИЯ</p>
-            <p>
+            <p className="experts-subtitle-normal">
               Наши консультанты обладают обширным опытом работы и глубокими
               знаниями в различных отраслях, что позволяет нам предлагать
               клиентам индивидуальные решения, нацеленные на оптимизацию их
