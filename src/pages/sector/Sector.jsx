@@ -2,6 +2,7 @@ import React from "react";
 import "./sector.css";
 
 const Sector = () => {
+  const isWidth = window.innerWidth < 490;
   return (
     <div className="sector">
       <div className="sector-container">
@@ -57,11 +58,17 @@ const Sector = () => {
           <div id="prom" className="sector-item">
             <img src="./img/icons/wood-industries.png" alt="" />
             <div className="sector-item__name">
-              <h4 className="background-gradient">
-                Легкая промышленность, деревообраба-
-                <br />
-                тывающая промышленность
-              </h4>
+              {isWidth ? (
+                <h4 className="background-gradient">
+                  Легкая промышленность, деревообраба-
+                  <br />
+                  тывающая промышленность
+                </h4>
+              ) : (
+                <h4 className="background-gradient">
+                  Легкая промышленность, деревообрабатывающая промышленность
+                </h4>
+              )}
             </div>
           </div>
           <div id="build" className="sector-item">

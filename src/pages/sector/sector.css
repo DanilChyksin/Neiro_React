@@ -3,7 +3,7 @@
   padding-bottom: 121px;
 }
 .sector-container {
-  margin: 91px 125px 0 100px;
+  margin: 91px 60px 0 60px;
 }
 
 .sector-head {
@@ -25,6 +25,7 @@
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;
+  margin-right: 20px;
 }
 .sector-subtitle {
   max-width: 643px;
@@ -105,7 +106,7 @@
     display: block;
   }
   .sector-container {
-    margin: 30px 10px 0;
+    margin: 30px 40px 0 40px;
   }
   .sector-title h1 {
     font-size: 20px;
@@ -150,6 +151,9 @@
     margin-top: 5px;
     line-height: 16px;
   }
+  .sector-container {
+    margin: 20px 10px 20px 10px;
+  }
 }
 @media (max-width: 380px) {
   .sector-item {
@@ -162,5 +166,9 @@
   }
   .sector-circle {
     display: none;
+  }
+  .sector-container {
+    margin: 0;
+    margin-left: 5px;
   }
 }

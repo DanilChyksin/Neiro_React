@@ -19,17 +19,16 @@ const Reviews = () => {
         </div>
         <div className="reviews-item">
           <Swiper
-            id="swiper"
-            cssMode={true}
-            slidesPerView={1}
+            direction={"vertical"}
             loop={false}
+            autoHeight={true}
+            slidesPerView={1}
+            mousewheel={false}
             pagination={{
               clickable: true,
+              el: ".reviews-pagination",
             }}
-            mousewheel={true}
-            keyboard={true}
-            modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-            className="mySwiper"
+            modules={[Mousewheel, Pagination]}
           >
             <SwiperSlide style={{ height: "130px" }}>
               <div className="reviews-slider">
@@ -123,8 +122,8 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>{" "}
-            <div className="reviews-pagination"></div>
           </Swiper>
+          <div className="reviews-pagination"></div>
         </div>
       </div>
     </div>

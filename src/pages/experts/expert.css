@@ -118,17 +118,23 @@
     font-size: 12px;
     line-height: 20px;
   }
-
+  .experts-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
   .experts-head {
     margin-bottom: 30px;
   }
   .experts-item h4 {
-    font-size: 10px;
-    height: 24px;
+    font-size: 12px;
+    height: 36px;
     margin-top: 14px;
   }
   .experts-item p {
     font-size: 12px;
+  }
+  .experts-grid {
+    column-gap: 20px;
   }
 }
 @media (max-width: 380px) {
@@ -140,9 +146,6 @@
     font-size: 14px;
   }
   .experts-item p {
-    font-size: 14px;
-  }
-  .experts-subtitle {
     font-size: 14px;
   }
   .experts-subtitle-normal {
