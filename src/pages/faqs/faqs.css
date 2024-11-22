@@ -120,7 +120,6 @@
   gap: 68px;
   align-items: center;
   overflow: hidden;
-
   transition: max-height 1s ease, margin-top 1s ease;
 }
 .faqs-includes-text-item {
@@ -303,6 +302,7 @@
     line-height: 5px;
     max-width: 321px;
   }
+
   .faqs-buttons {
     margin-top: 140px;
     display: flex;
