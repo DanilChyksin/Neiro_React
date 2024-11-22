@@ -25,20 +25,13 @@ const Sector = () => {
 
         <div className="sector-grid">
           <div className="sector-item">
-            <img src="./img/icons/seed.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">Агропромышленный комплекс</h4>
-            </div>
-          </div>
-
-          <div id="gos" className="sector-item">
             <img src="./img/icons/tie.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">Государственный сектор</h4>
             </div>
           </div>
 
-          <div id="potreb" className="sector-item">
+          <div className="sector-item">
             <img src="./img/icons/product.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
@@ -48,14 +41,6 @@ const Sector = () => {
           </div>
 
           <div className="sector-item">
-            <img src="./img/icons/geers.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">
-                Металлургический комплекс и машиностроение
-              </h4>
-            </div>
-          </div>
-          <div id="prom" className="sector-item">
             <img src="./img/icons/wood-industries.png" alt="" />
             <div className="sector-item__name">
               {isWidth ? (
@@ -71,7 +56,7 @@ const Sector = () => {
               )}
             </div>
           </div>
-          <div id="build" className="sector-item">
+          <div className="sector-item">
             <img src="./img/icons/construction.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
@@ -80,25 +65,6 @@ const Sector = () => {
             </div>
           </div>
 
-          <div className="sector-item">
-            <img src="./img/icons/truck.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">Транспорт и логистика</h4>
-            </div>
-          </div>
-          <div className="sector-item">
-            <img src="./img/icons/lamp.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">Электроэнергетика</h4>
-            </div>
-          </div>
-
-          <div className="sector-item">
-            <img src="./img/icons/display.png" alt="" />
-            <div className="sector-item__name">
-              <h4 className="background-gradient">IT-компании</h4>
-            </div>
-          </div>
           <img
             className="sector-circle"
             src="./img/icons/sector-circle.svg"

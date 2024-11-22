@@ -7,7 +7,7 @@
 body {
   /* font-family: var(--main-font); */
   font-family: var(--montserrat-font);
-
+  overflow-x: hidden;
   background-color: var(--page-bg);
   color: var(--text-color);
 }

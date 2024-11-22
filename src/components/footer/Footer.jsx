@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="footers-numbers">
               <img src="./img/icons/phone.png" alt="phone" />
               <a href="tel:88126010807">+7 (812) 601 08 07</a>
-
+              <img src="./img/icons/whatsapp.svg" alt="whatsapp" />
               <a href="tel:89523674641">+7 952 367 46 41</a>
             </div>
             <div className="footers-info-img">

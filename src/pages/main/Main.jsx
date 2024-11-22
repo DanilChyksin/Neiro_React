@@ -51,7 +51,7 @@ const Main = () => {
             <img src="./img/icons/circle.svg" alt="" />
           </div>
           <div className="main-img-static">
-            <img src="./img/collection/statistic.png" className="" alt="" />
+            <img src="./img/collection/main.png" className="" alt="" />
           </div>
           <div className="main-ellipse-img">
             <img src="./img/collection/ellipse.png" alt="" />

@@ -72,9 +72,8 @@
   .main-container {
     margin: 0 10px;
   }
-
 }
-@media (max-width: 500px){
+@media (max-width: 500px) {
   .nav_logo {
     max-width: 130px;
   }

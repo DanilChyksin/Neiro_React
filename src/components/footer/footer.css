@@ -97,12 +97,9 @@
 }
 .footers-numbers a {
   color: #fff;
-  padding-right: 20px;
+  padding-right: 32px;
 }
 
-.footers-numbers a:last-child {
-  padding-left: 12px;
-}
 .footers-info-img {
   display: flex;
   align-items: center;
@@ -181,7 +178,6 @@
   .footer-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
   }
   .footer-sector-item {
@@ -255,5 +251,14 @@
   }
   .footers-numbers {
     gap: 10px;
+  }
+}
+@media (max-width: 392px) {
+  .footers-numbers {
+    flex-wrap: wrap;
+    width: 200px;
+  }
+  .footer-info {
+    gap: 0;
   }
 }
