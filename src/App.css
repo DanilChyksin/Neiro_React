@@ -1,10 +1,29 @@
 .main-container {
   margin: 0 84px;
 }
-
+.btn_scroll_up {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.5s ease-in, bottom 0.2s ease-out;
+}
+.btn_scroll_up:hover {
+  bottom: 55px;
+}
+.active {
+  opacity: 1;
+}
 .background-gradient {
   background: linear-gradient(108.68deg, #c478bf 6.95%, #984994 39.15%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 450px) {
+  .btn_scroll_up {
+    right: 5px;
+  }
 }

@@ -12,11 +12,13 @@ import Question from "./pages/question/Question";
 import Reviews from "./pages/reviews/Reviews";
 import Sector from "./pages/sector/Sector";
 import Agreement from "./pages/agreement/Agreement";
+import BtnScrollUp from "./components/btnScrollUp/BtnScrollUp";
 
 function App() {
   return (
     <>
       <Header />
+      <BtnScrollUp />
       <Main />
       <Agreement />
       <Faqs1 />

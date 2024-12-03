@@ -1,14 +1,55 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import { Keyboard, Mousewheel, Navigation, Pagination } from "swiper/modules";
-
+import { Mousewheel, Pagination } from "swiper/modules";
 import "./reviews.css";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+const avatarOne = "./img/collection/avatar1.png";
+const avatarTwo = "./img/collection/avatar2.png";
 
+const data = [
+  {
+    text: "Обратился в NeiroGroup, чтобы оптимизировать работу моего предприятия. Специалисты провели детальный анализ бизнес-процессов и предложили конкретные шаги для улучшения эффективности работы. В результате внедрения их рекомендаций мы смогли сократить время на выполнение задач и улучшить качество продукции. Очень доволен результатом!",
+    avatar: avatarOne,
+  },
+  {
+    text: "Наша компания столкнулась с проблемой снижения оборотов. Мы обратились за помощью и они провели глубокий анализ нашей ситуации. Они предложили нам несколько стратегий для увеличения оборотов, которые мы успешно внедрили. Результаты превзошли наши ожидания — обороты компании значительно выросли, и мы достигли новых высот",
+    avatar: avatarTwo,
+  },
+  {
+    text: "Мы искали способы увеличить прибыль нашей компании и обратились к этой консалтинговой фирме. Они провели аудит наших финансовых показателей и предложили ряд мер для повышения прибыльности. Благодаря их рекомендациям мы смогли оптимизировать расходы и увеличить доходы. Это помогло нам достичь желаемых результатов",
+    avatar: avatarOne,
+  },
+  {
+    text: "Я был приятно удивлён результатами работы с НейроГрупп. Они помогли мне оптимизировать процессы в моей компании, что привело к увеличению производительности и снижению затрат. Теперь я могу сосредоточиться на развитии бизнеса, зная, что у меня есть надёжные партнёры, готовые помочь в любой ситуации",
+    avatar: avatarTwo,
+  },
+  {
+    text: "Товарищи из NeiroGroup действительно знают своё дело. Они не только помогли нам увеличить обороты, но и научили нас лучше понимать рынок и потребности клиентов. Теперь мы можем принимать более обоснованные решения и уверенно двигаться вперёд",
+    avatar: avatarOne,
+  },
+  {
+    text: "Сотрудничество с этой компанией стало настоящим прорывом для нашего бизнеса. Они проанализировали нашу деятельность, выявили слабые места и предложили эффективные стратегии для оптимизации работы и увеличения прибыли. Мы благодарны им за профессионализм и результаты, которых мы достигли благодаря их помощи",
+    avatar: avatarTwo,
+  },
+  {
+    text: "После обращения в NeiroGroup мы увидели значительные изменения в работе нашей организации. Они помогли нам оптимизировать процессы, улучшить управление ресурсами и повысить эффективность работы. Всё это привело к увеличению прибыли и улучшению качества продукции",
+    avatar: avatarOne,
+  },
+  {
+    text: "Очень рад, что выбрал именно эту консалтинговую фирму. Они настоящие профессионалы своего дела и знают, как помочь бизнесу расти и развиваться. Их рекомендации по увеличению оборотов и прибыли оказались очень полезными для нашей компании",
+    avatar: avatarTwo,
+  },
+  {
+    text: "Благодаря этой компании мы смогли значительно увеличить свою прибыль. Они провели тщательный анализ наших финансовых показателей, предложили стратегии для роста и помогли нам их реализовать. Теперь мы видим положительные результаты и уверены в будущем",
+    avatar: avatarOne,
+  },
+  {
+    text: "Работа с NeiroGroup была для нас настоящим открытием. Они показали нам новые подходы к управлению бизнесом, помогли оптимизировать процессы и увеличить прибыль. Мы очень довольны результатами и рекомендуем их всем, кто хочет добиться успеха в своём деле",
+    avatar: avatarTwo,
+  },
+];
 const Reviews = () => {
   return (
     <div>
@@ -30,100 +71,27 @@ const Reviews = () => {
             }}
             modules={[Mousewheel, Pagination]}
           >
-            <SwiperSlide style={{ height: "130px" }}>
-              <div className="reviews-slider">
-                <div className="reviews-stars">
-                  <img src="./img/icons/stars.png" alt="" />
-                </div>
-                <div className="reviews-title">
-                  <p>
-                    Внимание команды к запросу клиента, а также полное
-                    погружение и кастомизация продукта, позволяет нам обращаться
-                    за решением любой нестандартной задачи, а также
-                    рекомендовать TSQ как надежного, профессионального в сфере
-                    обучения и консалтинга!
-                  </p>
-                </div>
-                <div className="reviews-person">
-                  <img src="./img/collection/expert.png" alt="" />
-                  <div className="reviews-name">
-                    <h6>Иванов Иван</h6>
-                    <p>Ui Deisgner</p>
+            {data.map((item, index) => (
+              <SwiperSlide key={index} style={{ height: "60px" }}>
+                <div className="reviews-slider">
+                  <div className="reviews-stars">
+                    <img src="./img/icons/stars.png" alt="" />
+                  </div>
+                  <div className="reviews-title">
+                    <p>{item.text}</p>
+                  </div>
+                  <div className="reviews-person">
+                    <img src={item.avatar} alt="avatar" />
+                    <div className="reviews-name">
+                      <h6>Иванов Иван</h6>
+                      <p>Ui Deisgner</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide style={{ height: "130px" }}>
-              <div className="reviews-slider">
-                <div className="reviews-stars">
-                  <img src="./img/icons/stars.png" alt="" />
-                </div>
-                <div className="reviews-title">
-                  <p>
-                    Внимание команды к запросу клиента, а также полное
-                    погружение и кастомизация продукта, позволяет нам обращаться
-                    за решением любой нестандартной задачи, а также
-                    рекомендовать TSQ как надежного, профессионального в сфере
-                    обучения и консалтинга!
-                  </p>
-                </div>
-                <div className="reviews-person">
-                  <img src="./img/collection/expert.png" alt="" />
-                  <div className="reviews-name">
-                    <h6>Иванов Иван</h6>
-                    <p>Ui Deisgner</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide style={{ height: "130px" }}>
-              <div className="reviews-slider">
-                <div className="reviews-stars">
-                  <img src="./img/icons/stars.png" alt="" />
-                </div>
-                <div className="reviews-title">
-                  <p>
-                    Внимание команды к запросу клиента, а также полное
-                    погружение и кастомизация продукта, позволяет нам обращаться
-                    за решением любой нестандартной задачи, а также
-                    рекомендовать TSQ как надежного, профессионального в сфере
-                    обучения и консалтинга!
-                  </p>
-                </div>
-                <div className="reviews-person">
-                  <img src="./img/collection/expert.png" alt="" />
-                  <div className="reviews-name">
-                    <h6>Иванов Иван</h6>
-                    <p>Ui Deisgner</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide style={{ height: "130px" }}>
-              <div className="reviews-slider">
-                <div className="reviews-stars">
-                  <img src="./img/icons/stars.png" alt="" />
-                </div>
-                <div className="reviews-title">
-                  <p>
-                    Внимание команды к запросу клиента, а также полное
-                    погружение и кастомизация продукта, позволяет нам обращаться
-                    за решением любой нестандартной задачи, а также
-                    рекомендовать TSQ как надежного, профессионального в сфере
-                    обучения и консалтинга!
-                  </p>
-                </div>
-                <div className="reviews-person">
-                  <img src="./img/collection/expert.png" alt="" />
-                  <div className="reviews-name">
-                    <h6>Иванов Иван</h6>
-                    <p>Ui Deisgner</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
+              </SwiperSlide>
+            ))}
           </Swiper>
-          <div className="reviews-pagination"></div>
+          <div id="pagination" className="reviews-pagination"></div>
         </div>
       </div>
     </div>
