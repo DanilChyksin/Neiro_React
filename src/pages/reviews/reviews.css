@@ -165,6 +165,9 @@
     font-size: 15px;
     line-height: 30px;
   }
+  .reviews-head p {
+    margin-bottom: 10px;
+  }
   #pagination {
     top: 320px;
     right: 15px;
