@@ -86,7 +86,7 @@ const Header = () => {
               ) : (
                 <img
                   className="nav-icon"
-                  src="./img/icons/mobile_nav.svg"
+                  src="./img/icons/burger.svg"
                   alt="Open"
                 />
               )}

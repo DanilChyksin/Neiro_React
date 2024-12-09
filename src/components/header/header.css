@@ -97,6 +97,7 @@
   width: 100%;
   background: var(--page-bg);
   z-index: 1001;
+
   padding: 30px;
 }
 .mobile-nav a {

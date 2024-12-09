@@ -40,10 +40,10 @@ const Main = () => {
                 <img src="./img/icons/star.png" alt="" />
                 <img src="./img/icons/star.png" alt="" />
                 <img src="./img/icons/star.png" alt="" />
-                <img src="./img/icons/star-empty.png" alt="" />
+                <img src="./img/icons/star.png" alt="" />
               </div>
               <div className="main-score">
-                <li>4.1</li>
+                <li>4.9</li>
               </div>
             </div>
           </div>

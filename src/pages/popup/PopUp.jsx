@@ -1,6 +1,6 @@
 import React from "react";
 import "./popup.css";
-const PopUp = ({ data, index, handleClick, active }) => {
+const PopUp = ({ data, index, handleClick }) => {
   const { img, alt, text, popuptitle } = data[index];
   return (
     <div className="modal_bg">

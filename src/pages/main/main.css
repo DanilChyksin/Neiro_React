@@ -40,7 +40,7 @@
 .main-btn a {
   color: #fff;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
 }
 .main-btn img {
   transition: margin-left 0.3s ease;
@@ -113,16 +113,22 @@
     font-size: 50px;
     line-height: 50px;
   }
-  .main-btn a {
-    font-size: 8px;
-  }
 }
 @media (max-width: 650px) {
+  .main-btn a {
+    font-size: 14px;
+  }
   .main-img-static {
     width: 500px;
   }
   .main-img-static {
     top: 3%;
+  }
+}
+@media (max-width: 530px) {
+  .main-subcontent {
+    flex-direction: column;
+    gap: 15px;
   }
 }
 @media (max-width: 520px) {
@@ -131,10 +137,6 @@
   }
 }
 @media (max-width: 455px) {
-  .main-subcontent {
-    flex-direction: column;
-    gap: 15px;
-  }
   .main-title {
     font-size: 30px;
     line-height: 35px;

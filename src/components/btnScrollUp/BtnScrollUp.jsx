@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-
+import "./btnscrollup.css";
 const BtnScrollUp = () => {
   const [active, setActive] = useState(false);
   const onScroll = useCallback(() => window.scrollY, []);

@@ -185,9 +185,6 @@
     /* padding: 80px 70px 0; */
     padding: 50px 30px 0;
   }
-  .swiper {
-    height: 550px;
-  }
 }
 @media (max-width: 376px) {
   .reviews-title p {
@@ -197,9 +194,6 @@
   .reviews-head h3 {
     font-size: 30px;
     line-height: 30px;
-  }
-  .swiper {
-    height: 500px;
   }
 }
 @media (max-width: 345px) {
