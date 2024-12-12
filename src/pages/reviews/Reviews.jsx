@@ -70,7 +70,7 @@ const data = [
 ];
 const Reviews = () => {
   return (
-    <div>
+    <div id="reviews">
       <div className="reviews-container">
         <div className="reviews-head">
           <p>Отзывы</p>

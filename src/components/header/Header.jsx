@@ -58,7 +58,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="nav_link" href="#client">
+              <a className="nav_link" href="#reviews">
                 клиенты
               </a>
             </li>
@@ -109,7 +109,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="nav_link" href="#client">
+                <a className="nav_link" href="#reviews">
                   клиенты
                 </a>
               </li>
