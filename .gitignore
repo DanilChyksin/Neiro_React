@@ -10,7 +10,8 @@
 
 # production
 /build
-
+/Материалы
+/Обработанные фотографии
 # misc
 .DS_Store
 .env.local
